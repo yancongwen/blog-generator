@@ -19,18 +19,18 @@ tags:
 
 ### 3. 相互交换密钥的公开密钥加密技术 
 - 共享密钥加密  
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fncnj1jvymj20j10co3zf.jpg)
+![](http://img.yancongwen.cn/18-4-13/24308001.jpg)
 - 使用两把密钥的公开密钥加密        
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fncnilv6nvj20jk0ffaav.jpg)
+![](http://img.yancongwen.cn/18-4-13/24663158.jpg)
 - HTTPS 采用混合加密机制        
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fncnidgpvmj20gp0edjt7.jpg)
+![](http://img.yancongwen.cn/18-4-13/12998415.jpg)
 
 ### 4. 证明公开密钥正确性的证书
 &emsp;&emsp;遗憾的是，公开密钥加密方式还是存在一些问题的。那就是无法证明公开密钥本身就是货真价实的公开密钥。为了解决上述问题，可以使用由数字证书认证机构（CA，Certificate Authority）和其相关机关颁发的公开密钥证书。   
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fncnm6hz2vj20lk0glmyw.jpg)
+![](http://img.yancongwen.cn/18-4-13/27377590.jpg)
 
 ### 5. HTTPS 的安全通信机制
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fncns8xcsaj20lk0didh7.jpg)
+![](http://img.yancongwen.cn/18-4-13/6832010.jpg)
 
 ### 6. HTTPS 缺点
 - 消耗更多 CPU 及内存等资源，导致处理速度变慢；

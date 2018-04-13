@@ -8,9 +8,9 @@ tags:
 &emsp;&emsp;用于 HTTP 协议交互的信息被称为 HTTP 报文。请求端（客户端）的 HTTP 报文叫做请求报文，响应端（服务器端）的叫做响应报文。     
 &emsp;&emsp;HTTP 报文大致可分为报文首部和报文主体两块。  
 
-## HTTP报文结构：  
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fn9asfb1jrj20lp06074z.jpg)    
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fn9b29at1cj20r60jr76j.jpg)
+### HTTP报文结构：  
+![](http://img.yancongwen.cn/18-4-13/96241523.jpg)    
+![](http://img.yancongwen.cn/18-4-13/89803512.jpg)
 
-## HTTP报文实例：  
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fn9aszue9jj20le0jedsh.jpg)
+### HTTP报文实例：  
+![](http://img.yancongwen.cn/18-4-13/99348648.jpg)

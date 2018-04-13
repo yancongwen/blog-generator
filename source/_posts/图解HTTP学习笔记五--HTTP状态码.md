@@ -7,7 +7,14 @@ tags:
 
 >HTTP 状态码负责表示客户端 HTTP 请求的返回结果、标记服务器端的处理是否正常、通知出现的错误等工作。
 
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fn9b5tvmfij20iv063mx9.jpg)
+状态码 | 类别 | 原因短语
+---|---|---
+1XX | Informational(信息性状态码) | 接受的请求正在处理
+2XX | Success(成功)               | 请求正常处理
+3XX | Redirecton(重定向)          | 需要进行附加操作
+4XX | Client Error(客户端错误)    | 服务器无法完成请求
+5XX | Server Error(服务端错误)    | 服务器处理请求出错
+
 
 
 ### 1. 2XX 成功

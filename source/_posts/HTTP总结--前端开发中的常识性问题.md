@@ -15,9 +15,13 @@ tags:
 ## 2. HTTP
 - HyperText Transfer Protocol，超文本转移协议，是TCP/IP 协议族的子集，用于客户端和 服务器之间的通信。详细请看其他文章：[HTTP基础](http://blog.yancongwen.cn/2018/01/09/%E5%9B%BE%E8%A7%A3HTTP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9AHTTP%E5%9F%BA%E7%A1%80/)、[HTTP报文](http://blog.yancongwen.cn/2018/01/10/%E5%9B%BE%E8%A7%A3HTTP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9AHTTP%E6%8A%A5%E6%96%87/)、[HTTP状态码](http://blog.yancongwen.cn/2018/01/11/%E5%9B%BE%E8%A7%A3HTTP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9AHTTP%E7%8A%B6%E6%80%81%E7%A0%81/)、[HTTP首部](http://blog.yancongwen.cn/2018/01/12/%E5%9B%BE%E8%A7%A3HTTP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%85%AD%EF%BC%89%EF%BC%9AHTTP%E9%A6%96%E9%83%A8/)。
 - 请求报文
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fq8jpbki64j20h5089wet.jpg)
+![](http://img.yancongwen.cn/18-4-13/64617528.jpg)
 - 响应报文
-![](http://ww1.sinaimg.cn/large/9f4be9b7gy1fq8jpphm5dj20em07mwep.jpg)
+![](http://img.yancongwen.cn/18-4-13/27833394.jpg)
+- Chrome开发者工具查看 HTTP 报文
+  - ① 打开 Network    
+  - ② 地址栏输入网址   
+  - ③ 在 Network 点击，查看 Request/Response Headers，点击「view source」    
 
 ## 3. TCP、UDP 
 - TCP（三次握手，四次挥手）
@@ -62,5 +66,3 @@ tags:
     $ curl http://www.baidu.com > index.html
     $ curl -o index.html http://www.baidu.com
     ```
-
-
