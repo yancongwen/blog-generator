@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 码字仓颉 Blog
+title: 码字仓颉
 subtitle: 个人博客
 description: yancongwen'blog
 author: Yan Congwen
@@ -80,3 +80,10 @@ deploy:
   type: git
   repo: git@github.com:yancongwen/yancongwen.github.io.git
   branch: master
+  
+# hexo-admin authentification
+admin:
+  username: yancongwen
+  password_hash: $2a$10$2ZYNVa98Wd0ucZ.bWKzKteLvoEjZuxjwHEf9bupKwu/Vg0bXKYx2u
+  secret: yancongwen
+  deployCommand: './hexo-deploy.sh'
