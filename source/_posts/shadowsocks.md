@@ -5,7 +5,7 @@ tags:
 categories: []
 date: 2018-04-22 01:27:00
 ---
-> 最近 DigitalOcean 个人服务器IP总是被封，只能来回切换服务器 IP 了。每次切换又要重新配置 Shadowsocks ，所以在这里记录一下配置过程，方便复制粘贴。
+> 记录一下Shadowsocks的配置过程
 
 ### 1. 通过SSH连接主机
 ### 2. 安装Shadowsocks
@@ -21,7 +21,7 @@ date: 2018-04-22 01:27:00
 	```    
 	# vi /etc/shadowsocks.json
 	```
-- 在文件中输入一下内容，保存
+- 在文件中输入以下内容，保存
    ```
 	{
       "server":"0.0.0.0",
