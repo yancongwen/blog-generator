@@ -6,11 +6,10 @@ categories:
   - 技术
 date: 2018-04-19 01:29:00
 ---
-
 > 本文翻译自 CSS-Tricks 中的一篇文章—— [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)，CSS居中完全指南，其中有部分删改。
 
-&emsp;&emsp;Centering things in CSS is the poster child of CSS complaining. Why does it have to be so hard? They jeer. I think the issue isn't that it's difficult to do, but in that there so many different ways of doing it, depending on the situation, it's hard to know which to reach for. 
-&emsp;&emsp;居中是一种很常见的布局方式。有人抱怨CSS居中布局很难，其实不然，在我看来，说居中布局难，不是因为居中真的有多么难实现，而是因为实现居中的方法有太多太多，以至于新手总是纠结去用哪个。我们需要根据不同的场景，去选择合适的方法。
+&emsp;&emsp;Centering things in CSS is the poster child of CSS complaining. Why does it have to be so hard? They jeer. I think the issue isn't that it's difficult to do, but in that there so many different ways of doing it, depending on the situation, it's hard to know which to reach for. 	
+&emsp;&emsp;居中是一种很常见的布局方式。有人抱怨CSS居中布局很难，其实不然，在我看来，说居中布局难，不是因为居中真的有多么难实现，而是因为实现居中的方法有太多太多，以至于新手总是纠结去用哪个。我们需要根据不同的场景，去选择合适的方法。	
 &emsp;&emsp;本文将CSS居中布局方法进行归类，以便于理解和简化居中问题。
 
 ## 1.水平居中
@@ -37,9 +36,12 @@ date: 2018-04-19 01:29:00
 - 多个块元素在一行内居中
   - 方法一：父元素设置 text-align: center ，子元素设置 display: inline-block； 	
   - 方法二：使用 flex 布局，父元素设置 display: flex; justify-content: center;
+  
 <iframe src="http://codepen.io/chriscoyier/embed/ebing" width="100%" height="305" frameborder="0"></ifream>
+
 - 多个块元素在一列内居中
 如果只是需要让多个块级元素整体水平居中，并且按默认的方式纵向排列，那直接设置左右边距为 auto 即可。
+
 <iframe src="http://codepen.io/chriscoyier/embed/haCGt" width="100%" height="305" frameborder="0"></ifream>
 
 ## 2. 垂直居中
@@ -77,7 +79,7 @@ date: 2018-04-19 01:29:00
   margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
 }
 ```
-[http://codepen.io/chriscoyier/pen/HiydJ](http://codepen.io/chriscoyier/pen/HiydJ)
+	[http://codepen.io/chriscoyier/pen/HiydJ](http://codepen.io/chriscoyier/pen/HiydJ)
 - **元素高度未知**（最常见的一种场景）
   - 方法一：先将元素相对于其原始位置向下移动父元素高度的一半距离，再将该元素相对其本身的高度向上移动一半，这样就能实现垂直居中的效果了。
   ``` CSS
@@ -90,8 +92,9 @@ date: 2018-04-19 01:29:00
     transform: translateY(-50%);
   }
   ```
-  [http://codepen.io/chriscoyier/pen/lpema](http://codepen.io/chriscoyier/pen/lpema)
-   - 方法二：flexbox
+  	[http://codepen.io/chriscoyier/pen/lpema](http://codepen.io/chriscoyier/pen/lpema)
+
+  - 方法二：flexbox
   ``` CSS
   .parent {
     display: flex;
@@ -99,7 +102,7 @@ date: 2018-04-19 01:29:00
     justify-content: center;
   }
   ```
-  [http://codepen.io/chriscoyier/pen/FqDyi](http://codepen.io/chriscoyier/pen/FqDyi)
+  	[http://codepen.io/chriscoyier/pen/FqDyi](http://codepen.io/chriscoyier/pen/FqDyi)
 
 ## 3. 垂直和水平都居中
 当然，我们可以结合以上给出的方法来实现垂直和水平方向都居中的布局。这里我们再进行一下分类总结。
@@ -151,6 +154,7 @@ date: 2018-04-19 01:29:00
 
 ### 3.4 使用 grid
 这只是一个小技巧，只适用于一个元素的情况。
+
 <iframe src="http://codepen.io/chriscoyier/embed/NvwpyK" width="100%" height="305" frameborder="0"></ifream>
 
 ## 4. 结束语
