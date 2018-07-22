@@ -1,11 +1,8 @@
----
 title: 图解HTTP学习笔记(七)：HTTPS
-date: 2018-01-12 20:00:00
 tags:
- - 计算机网络
+  - 计算机网络
+date: 2018-01-12 20:00:00
 ---
-
-
 ### 1. HTTP 的缺点
 - 通信使用明文（不加密），内容可能会被窃听；
 - 不验证通信方的身份，因此有可能遭遇伪装（ DoS 攻击，拒绝服务攻击）；
@@ -19,21 +16,21 @@ tags:
 
 ### 3. 相互交换密钥的公开密钥加密技术 
 - 共享密钥加密  
-![](http://img.yancongwen.cn/18-4-13/24308001.jpg)
+![](https://img.yancongwen.cn/18-4-13/24308001.jpg)
 - 使用两把密钥的公开密钥加密        
-![](http://img.yancongwen.cn/18-4-13/24663158.jpg)
+![](https://img.yancongwen.cn/18-4-13/24663158.jpg)
 - HTTPS 采用混合加密机制        
-![](http://img.yancongwen.cn/18-4-13/12998415.jpg)
+![](https://img.yancongwen.cn/18-4-13/12998415.jpg)
 
 ### 4. 证明公开密钥正确性的证书
 &emsp;&emsp;遗憾的是，公开密钥加密方式还是存在一些问题的。那就是无法证明公开密钥本身就是货真价实的公开密钥。为了解决上述问题，可以使用由数字证书认证机构（CA，Certificate Authority）和其相关机关颁发的公开密钥证书。   
-![](http://img.yancongwen.cn/18-4-13/27377590.jpg)
+![](https://img.yancongwen.cn/18-4-13/27377590.jpg)
 
 ### 5. HTTPS 的安全通信机制
-![](http://img.yancongwen.cn/18-4-13/6832010.jpg)
+![](https://img.yancongwen.cn/18-4-13/6832010.jpg)
 
 ### 6. HTTPS 缺点
 - 消耗更多 CPU 及内存等资源，导致处理速度变慢；
 - 和HTTP相比，SSL 通信使通信量会增加；
 - HTTPS 比 HTTP 要慢 2 到 100 倍；
-- 证书必须向认 证机构（CA）购买；
+- 证书必须向认证机构（CA）购买；

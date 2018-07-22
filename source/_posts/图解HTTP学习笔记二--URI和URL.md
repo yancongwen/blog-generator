@@ -1,10 +1,8 @@
----
 title: 图解HTTP学习笔记(二)：URI和URL
-date: 2018-01-08 22:00:00
 tags:
- - 计算机网络
+  - 计算机网络
+date: 2018-01-08 22:00:00
 ---
-
 ## 1. 统一资源标识符 URI
 ### 1.1 统一资源标识符 URI (Uniform Resource Identifier)
 URI 就是标识某一互联网资源的字符串。  
@@ -35,11 +33,11 @@ urn:ietf:rfc:7230
 RL和URN都是URI的子集。统一资源名（URN）如同一个人的名称，而统一资源定位符（URL）代表一个人的住址。   
 在 [知乎](https://www.zhihu.com/question/21950864) 上有人这么回答：原来URI包括URL和URN，后来URN没流行起来，导致几乎目前所有的URI都是URL。
 
-![](http://img.yancongwen.cn/18-4-13/38643054.jpg)
+![](https://img.yancongwen.cn/18-4-13/38643054.jpg)
 
 ## 2. URI 格式 
 
-![](http://img.yancongwen.cn/18-4-13/97323657.jpg)
+![](https://img.yancongwen.cn/18-4-13/97323657.jpg)
 
 - 方案或协议：http:// 告诉浏览器使用何种协议，对于大部分 Web 资源，通常使用 HTTP 协议或其安全版本，HTTPS 协议。还有：ftp、data、file、mailto、tel等协议。
 - 服务器地址： IPv4、IPV6地址或域名。

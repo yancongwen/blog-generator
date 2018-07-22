@@ -72,13 +72,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: vexo
+theme: hexo-theme-vexo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: git@github.com:yancongwen/yancongwen.github.io.git
+  repo: 
+    github: git@github.com:yancongwen/yancongwen.github.io.git
+    gitee: git@gitee.com:yancongwen/yancongwen.git
   branch: master
   
 # hexo-admin authentification

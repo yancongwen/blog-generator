@@ -1,14 +1,11 @@
----
 title: 图解HTTP学习笔记(六)：HTTP首部
-date: 2018-01-12 18:00:00
 tags:
- - 计算机网络
+  - 计算机网络
+date: 2018-01-12 18:00:00
 ---
-
-
 HTTP 协议的请求和响应报文中必定包含 HTTP 首部。首部内容为客户端和服务器分别处理请求和响应提供所需要的信息。报文结构：
 
-![](http://img.yancongwen.cn/18-4-13/85199769.jpg)
+![](https://img.yancongwen.cn/18-4-13/85199769.jpg)
 
 ## 一、首部字段
 HTTP/1.1 规范定义了 47 种首部字段。HTTP 首部字段根据实际用途被分为以下 4 种类型：
@@ -85,19 +82,19 @@ Last-Modified | 资源的最后修改日期时间
 
 - 1、Cache-Control  
 请求指令：  
-![](http://img.yancongwen.cn/18-4-13/71727595.jpg)  
+![](https://img.yancongwen.cn/18-4-13/71727595.jpg)  
 响应指令：  
-![](http://img.yancongwen.cn/18-4-13/86078800.jpg)   
+![](https://img.yancongwen.cn/18-4-13/86078800.jpg)   
 
 - 2、Connection 
     - 控制不再转发给代理的首部字段  
-![](http://img.yancongwen.cn/18-4-13/40889356.jpg)
+![](https://img.yancongwen.cn/18-4-13/40889356.jpg)
     - 管理持久连接
-![](http://img.yancongwen.cn/18-4-13/58156556.jpg)
+![](https://img.yancongwen.cn/18-4-13/58156556.jpg)
     - HTTP/1.1 版本的默认连接都是持久连接。为此，客户端会在持久连接上连续发送请求。当服务器端想明确断开连接时，则指定 Connection 首部字段的值为 Close。 
     - HTTP/1.1 之前的 HTTP 版本的默认连接都是非持久连接。为此，如果想在旧版本的 HTTP 协议上维持持续连接，则需要指定 Connection 首部字段的值为 Keep-Alive。
 
-![](http://img.yancongwen.cn/18-4-13/9599479.jpg)
+![](https://img.yancongwen.cn/18-4-13/9599479.jpg)
 
 - 3、Data
 
@@ -141,7 +138,7 @@ Last-Modified | 资源的最后修改日期时间
     告知服务器，请求的资源所处的互联网主机名和端口号。Host 首部字段在 HTTP/1.1 规范内是唯一一个必须被包含在请求内的首部字段。
 
 - 9、If-Match
-![](http://img.yancongwen.cn/18-4-13/8635584.jpg)       
+![](https://img.yancongwen.cn/18-4-13/8635584.jpg)       
     形如 If-xxx 这种样式的请求首部字段，都可称为条件请求。服务器接收到附带条件的请求后，只有判断指定条件为真时，才会执行请求       
     只有当 If-Match 的字段值跟 ETag 值匹配一致时，服务器才会接受请求
 

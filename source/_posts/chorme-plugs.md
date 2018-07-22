@@ -24,6 +24,8 @@ date: 2018-04-21 11:49:00
 轻松保存文章、视频方便以后查看
 - 有道词典Chrome划词插件
 网页鼠标划词翻译
+- Marinara	
+番茄工作法助理
 - 极简图床
 我目前使用的图床工具，配合七牛云使用，可以很方便地复制、拖拽、采集页面的图片到七牛云存储
 - 新浪微博图床
@@ -31,9 +33,9 @@ date: 2018-04-21 11:49:00
 
 ## 2. Web 开发
 - Allow-Control-Allow-Origin: *		
-该插件可谓是前端开发利器，帮助我们解决跨域问题。该插件实现跨域的机制是：利用CHrome浏览器开发接口，在每次发起请求时，在请求头中添加了 请求头 `origin:http://evil.com/`。其中具体缘由目前我也说不清楚。O(∩_∩)O~
-   ![](http://img.yancongwen.cn/18-4-22/61111202.jpg)
-   ![](http://img.yancongwen.cn/18-4-22/920590.jpg)
+该插件可谓是前端开发利器，帮助我们解决跨域问题。该插件实现跨域的机制是利用Chrome浏览器开发接口对请求头响应头做了修改。该插件在每次发起请求时，在请求头中添加了请求头 `origin:http://evil.com/`。详细信息可以参考[这里](https://github.com/vitvad/Access-Control-Allow-Origin/issues/47)
+![](https://img.yancongwen.cn/18-4-22/61111202.jpg)
+![](https://img.yancongwen.cn/18-4-22/920590.jpg)
 - Vue.js devtools
 Vue 开发必备
 - JSON Viewer
