@@ -3,7 +3,7 @@ author: Yan Congwen
 tags:
   - 工具
 categories: []
-date: 2018-07-16 11:39:00
+date: 2017-07-16 11:39:00
 ---
 > 	本文主要记录一下本人使用 hexo + github 搭建个人博客的流程及hexo使用技巧和相关辅助工具。
 
