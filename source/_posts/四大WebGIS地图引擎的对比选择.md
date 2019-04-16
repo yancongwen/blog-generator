@@ -3,7 +3,7 @@ author: Yan Congwen
 tags:
   - gis
 categories: []
-date: 2018-11-05 12:42:00
+date: 2019-02-05 12:42:00
 ---
 # 四大Webgis地图引擎的对比选择
 > 选择的方式主要是根据业务需求，主要分为: 传统GIS业务(Leaflet)，三维业务(Cesium)，互联网展示型(MapboxGL)，老IE浏览器，老业务维护(OpenLayers)。
