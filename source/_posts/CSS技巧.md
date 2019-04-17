@@ -15,9 +15,20 @@ date: 2018-07-28 15:41:00
 - 块级元素
 
 ### 2、盒模型
-- padding
-- border
-- margin
+盒模型的组成大家肯定都懂，由里向外content,padding,border,margin。盒模型是有两种标准的，一个是标准模型，一个是IE模型。
+- 标准盒模型
+元素宽高 = content 宽高
+
+- IE 盒模型
+元素宽高 = content宽高 + padding + border
+
+```css
+/* 标准模型，默认值 */
+box-sizing:content-box;
+
+ /*IE模型，推荐*/
+box-sizing:border-box;
+```
 
 ### 3、定位 position
 - static	
